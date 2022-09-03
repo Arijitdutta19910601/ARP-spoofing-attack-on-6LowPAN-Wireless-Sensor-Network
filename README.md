@@ -1,4 +1,3 @@
-# ARP-spoofing-attack-on-6LowPAN-Wireless-Sensor-Network
-Title: Adaptive Cell Scheduling Function of 6TiSCH Network for Efficient Data Communication in Industrial IoT
+# MITM-attack-on-6LowPAN-Wireless-Sensor-Network
 
-Project Overview: Main goal of the proposal is to improve the performance of present Industrial IoT (IIoT) network. Broad objective of this proposal is the development of adaptive cell scheduling function in 6TiSCH network for efficient management of TSCH cells used in data communication. 
+In this project a Man In The Middle attack in a Low Power IoT sensor network in a testbed scenario is performed. To create the wireless sensor network, a 6LoWPAN Border Router is established with Raspberry Pi 4 and TI-cc2650 launchpad. A TI-cc2650stk sensor tag is used for sensor data reading. The MITM attack is performed on the border router and by performing ARP spoofing at the TCP/IP network. The sensor data is successfully altered in such an attack.
